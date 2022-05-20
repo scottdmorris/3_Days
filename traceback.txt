@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 251, in script
+    jump park
+ScriptError: could not find label 'park'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 251, in script
+    jump park
+  File "/Applications/renpy-7.4.11-sdk/renpy/ast.py", line 1757, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/Applications/renpy-7.4.11-sdk/renpy/script.py", line 918, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'park'.
+
+Darwin-21.4.0-x86_64-i386-64bit
+Ren'Py 7.4.11.2266
+game 1.0
+Mon Apr 25 16:20:05 2022
